@@ -104,7 +104,7 @@ To use a custom log location:
 | Parameter | Description |
 | --- | --- |
 | `-ListApps` | Lists configured and discovered identities, their selection state, presence, and protection reasons; exits without removal. |
-| `-LogPath <string>` | Sets the log file path. Defaults to `%ProgramData%\21stTSC\AppxRemoval\AppxRemoval.log`. |
+| `-LogPath <string>` | Sets the log file path. Defaults to `%ProgramData%\ShrandCleanup\AppxRemoval\AppxRemoval.log`. |
 | `-WhatIf` | Previews the overall removal request without making changes. |
 | `-Confirm` | Controls the confirmation prompt. Use `-Confirm:$false` to suppress it. |
 

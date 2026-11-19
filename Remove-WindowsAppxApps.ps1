@@ -21,7 +21,7 @@ param(
     [switch]$ListApps,
 
     [ValidateNotNullOrEmpty()]
-    [string]$LogPath = (Join-Path $env:ProgramData "21stTSC\AppxRemoval\AppxRemoval.log")
+    [string]$LogPath = (Join-Path $env:ProgramData "ShrandCleanup\AppxRemoval\AppxRemoval.log")
 )
 
 # Edit only the values: $false = keep, $true = request removal.
